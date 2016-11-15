@@ -1,11 +1,6 @@
 /bin/
-<<<<<<< HEAD
 .classpath
 .project
 *.class
 .DS_Store
 /.settings
-=======
-/.classpath
-/.project
->>>>>>> 55988fab788721173903ec77d9074bd83c183de1
