@@ -8,7 +8,7 @@ import java.io.Serializable;
  *
  *@author Antoine Proulx-Bégin
  */
-public class ListeDemande implements Serializable {
+public class Liste implements Serializable {
 	/**
 	 * Enlève un "warning". On ne gère pas les versions.
 	 */
@@ -19,7 +19,7 @@ public class ListeDemande implements Serializable {
 	private Noeud posCourante;
 	private int nbElements;
 	
-	public ListeDemande() {
+	public Liste() {
 		debut = null;
 		fin = null;
 		posCourante = null;

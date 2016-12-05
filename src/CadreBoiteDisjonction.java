@@ -12,6 +12,8 @@ import javax.swing.plaf.metal.MetalButtonUI;
  * @author Pierre Bélisle (copyright A2016)
  */
 public class CadreBoiteDisjonction extends JFrame implements Runnable{
+	public CadreBoiteDisjonction() {
+	}
 
 
 /**

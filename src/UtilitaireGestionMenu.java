@@ -60,8 +60,8 @@ public class UtilitaireGestionMenu {
 
 		if (boite.getEmplacementEncoreDisponible()) {
 
-			double ampere = UtilitaireEntreeSortie.ampereValide();
-			double tension = UtilitaireEntreeSortie.tensionValide();
+			int ampere = UtilitaireEntreeSortie.ampereValide();
+			int tension = UtilitaireEntreeSortie.tensionValide();
 			Disjoncteur d = new Disjoncteur(ampere, tension);
 			Coord c = boite.getEmplacementDisponible();
 			boite.ajouterDisjoncteur(c.colonne, c.ligne, d);
